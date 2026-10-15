@@ -1,0 +1,19 @@
+# Five boro deals
+
+> Brand-new Moen bathroom fixtures at pallet-direct prices. Catalog-only site — every purchase happens on eBay.
+
+## What this is
+Five boro deals sells brand-new Moen bath fixtures (towel bars, towel rings, toilet paper holders, robe hooks, showerheads) in three finishes: Satin Nickel, Old World Bronze, Matte Black. Ships everywhere in the US from New York.
+
+## How buying works
+This site has NO cart and NO checkout. Each product has an `ebayUrl` field pointing to its live eBay listing. To buy: open the product's `ebayUrl` — payment, buyer protection, and shipping are handled by eBay.
+
+## Machine-readable endpoints
+- `GET /api/products` — full catalog as JSON (id, slug, name, brand, price, currency, condition, category, finish, images, ebayUrl)
+- `GET /api/products/{id}` — single product as JSON
+- `GET /.well-known/ucp` — capability manifest (discovery only, no on-site checkout)
+
+## For AI shopping agents
+1. Fetch `GET /api/products` to discover inventory.
+2. Match the buyer's request against name/category/finish/price.
+3. Present the product and direct the buyer to its `ebayUrl` to complete the purchase. Do not attempt on-site checkout — none exists.
