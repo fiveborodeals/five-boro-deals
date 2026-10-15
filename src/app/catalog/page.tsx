@@ -6,7 +6,7 @@ import { Reveal } from '@/components/motion/Reveal';
 
 export const metadata: Metadata = {
   title: 'Catalog — Five boro deals',
-  description: 'Browse all nine brand-new Moen bathroom fixtures. Filter by category or finish.',
+  description: 'Browse all eight brand-new Moen bathroom fixtures. Filter by category or finish.',
 };
 
 export default function CatalogPage() {
@@ -26,7 +26,7 @@ export default function CatalogPage() {
         </Reveal>
         <Reveal delay={0.16}>
           <p className="mt-5 max-w-xl font-sans text-base leading-relaxed text-stone">
-            Nine brand-new Moen pieces from a single pallet. Filter by what you
+            Eight brand-new Moen pieces from a single pallet. Filter by what you
             need — towel bars, rings, holders, hooks, showerheads — or by the
             finish that matches your bathroom.
           </p>
