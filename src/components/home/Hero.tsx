@@ -8,7 +8,7 @@ import { Reveal } from '@/components/motion/Reveal';
  *  solid panel on the right. Nothing overlaps, nothing floats, nothing shouts. */
 export function Hero() {
   const heroProduct = products.find(
-    (p) => p.id === 'moen-verso-magnetix-showerhead-black-220c2epbl',
+    (p) => p.id === 'moen-verso-magnetix-showerhead-black',
   )!;
 
   return (
@@ -29,8 +29,8 @@ export function Hero() {
           </Reveal>
           <Reveal delay={0.16}>
             <p className="mt-6 max-w-lg font-sans text-lg leading-relaxed text-stone">
-              Nine brand-new Moen fixtures — eight from the Yorkshire line, plus
-              two Verso showerheads. Every piece is new, every price is the
+              Eight brand-new Moen fixtures — seven from the Yorkshire line, plus
+              one Verso showerhead. Every piece is new, every price is the
               eBay price, and every order ships from New York.
             </p>
           </Reveal>
