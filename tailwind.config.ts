@@ -5,35 +5,25 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: '#0A0908',
-        coal: '#121110',
-        bone: '#F2EDE4',
-        fog: '#8B857A',
-        brass: '#C9A24B',
-        champagne: '#D9C08A',
-        nickel: '#B9BEC7',
-        bronze: '#9A6B3D',
-        line: 'rgba(242, 237, 228, 0.12)',
+        // Warm, quiet retail palette: off-white paper, warm neutrals,
+        // deep charcoal ink, one muted brass accent.
+        paper: '#FAF8F4',
+        cream: '#F2EEE6',
+        card: '#FFFFFF',
+        imgpanel: '#F4F1EA',
+        ink: '#1C1B18',
+        stone: '#6F6A62',
+        faint: '#A39D94',
+        line: '#E3DCCC',
+        brass: '#9A7B4F',
+        brassdark: '#7E643C',
       },
       fontFamily: {
         display: ['var(--font-fraunces)', 'Georgia', 'serif'],
         sans: ['var(--font-grotesk)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       letterSpacing: {
-        mega: '0.35em',
-      },
-      transitionTimingFunction: {
-        heavy: 'cubic-bezier(0.16, 1, 0.3, 1)',
-      },
-      animation: {
-        marquee: 'marquee 28s linear infinite',
-        'spin-slow': 'spin 14s linear infinite',
-      },
-      keyframes: {
-        marquee: {
-          '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-50%)' },
-        },
+        mega: '0.18em',
       },
     },
   },
