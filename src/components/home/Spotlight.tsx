@@ -9,7 +9,7 @@ import { BuyOnEbay } from '@/components/product/BuyOnEbay';
  *  showroom centerpiece — large photo on a clean panel, calm spec table,
  *  price, and a Buy on eBay button. */
 export function Spotlight() {
-  const product = getProductById('moen-verso-magnetix-showerhead-black-220c2epbl')!;
+  const product = getProductById('moen-verso-magnetix-showerhead-black')!;
 
   const facts = [
     ['Function', '8-function spray'],
