@@ -146,22 +146,6 @@ export const products: Product[] = [
     ebayUrl: 'https://www.ebay.com/itm/298573805516',
   },
   {
-    id: 'moen-verso-magnetix-showerhead-black-220c2epbl',
-    slug: 'moen-verso-magnetix-showerhead-matte-black',
-    name: 'Moen Verso Magnetix 8-Function Showerhead',
-    brand: 'Moen',
-    blurb: '7" rainshower with magnetic handshower, Matte Black.',
-    description:
-      'Brand-new Moen Verso Magnetix 8-function 7-inch showerhead with handshower (model 220C2EPBL) in Matte Black. Never used, sold as listed on eBay.',
-    price: 94.99,
-    currency: 'USD',
-    condition: 'Brand New',
-    category: 'Showerhead',
-    finish: 'Matte Black',
-    images: ['/images/moen-verso-magnetix-showerhead-black-220c2epbl.webp'],
-    ebayUrl: 'https://www.ebay.com/itm/298554427245',
-  },
-  {
     id: 'moen-verso-magnetix-showerhead-black',
     slug: 'moen-verso-magnetix-showerhead-matte-black-2',
     name: 'Moen Verso Magnetix 8-Function Showerhead',
