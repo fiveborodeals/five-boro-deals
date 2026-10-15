@@ -29,7 +29,7 @@ export default function HomePage() {
             <div className="mt-4 flex flex-col justify-between gap-6 md:flex-row md:items-end">
               <Reveal delay={0.08}>
                 <h2 className="max-w-2xl font-display text-4xl font-medium leading-tight tracking-tight text-ink md:text-5xl">
-                  Nine pieces, chosen with intent.
+                  Eight pieces, chosen with intent.
                 </h2>
               </Reveal>
               <Reveal delay={0.16}>
@@ -53,7 +53,7 @@ export default function HomePage() {
                 href="/catalog"
                 className="link-draw font-sans text-sm font-medium text-ink"
               >
-                View all nine pieces →
+                View all eight pieces →
               </a>
             </Reveal>
           </div>
